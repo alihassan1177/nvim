@@ -14,6 +14,7 @@ end
 telescope.setup({
   -- configure custom mappings
   defaults = {
+    file_ignore_patterns = { "node_modules" },
     mappings = {
       i = {
         ["<C-k>"] = actions.move_selection_previous, -- move to prev result
@@ -22,6 +23,12 @@ telescope.setup({
       },
     },
   },
+  extensions = {
+    file_browser = {
+      theme = "dropdown",
+      hijack_netrw = true,
+    }
+  }
 })
 
 telescope.load_extension("fzf")

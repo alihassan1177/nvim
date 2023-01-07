@@ -114,15 +114,15 @@ _G.packer_plugins = {
     path = "/home/ali/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  gruvbox = {
-    loaded = true,
-    path = "/home/ali/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
   harpoon = {
     loaded = true,
     path = "/home/ali/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/ali/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -163,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ali/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/ali/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/NvChad/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -213,11 +218,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ali/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  ["vim-nightfly-guicolors"] = {
-    loaded = true,
-    path = "/home/ali/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
-    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,

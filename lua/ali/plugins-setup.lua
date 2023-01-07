@@ -26,12 +26,12 @@ return require('packer').startup({ function(use)
     'nvim-treesitter/nvim-treesitter',
     run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
+  use "https://github.com/rebelot/kanagawa.nvim"
+  use 'NvChad/nvim-colorizer.lua'
   use "ThePrimeagen/harpoon"
   use "folke/tokyonight.nvim"
   use "xiyaowong/nvim-transparent"
-  use "bluz71/vim-nightfly-guicolors"
   use "christoomey/vim-tmux-navigator"
-  use "morhetz/gruvbox"
   use "nvim-lualine/lualine.nvim"
   use "kyazdani42/nvim-web-devicons"
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
